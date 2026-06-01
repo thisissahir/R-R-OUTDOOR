@@ -258,7 +258,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .btn--md { font-size: 15px; padding: 12px 22px; border-radius: 14px; }
 .btn--lg { font-size: 17px; padding: 16px 28px; border-radius: 16px; }
 
-.btn--primary    { background: var(--sun-500); color: var(--pine-900); box-shadow: var(--shadow-sm); }
+.btn--primary    { background: var(--sun-500); color: #fff; box-shadow: var(--shadow-sm); }
 .btn--primary:hover  { background: var(--sun-600); transform: translateY(-1px); box-shadow: var(--shadow-md); }
 .btn--primary:active { background: var(--sun-700); transform: translateY(0); }
 
