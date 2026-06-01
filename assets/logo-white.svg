@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 260" role="img" aria-labelledby="title desc">
+  <title id="title">R&amp;R Outdoor Essentials white logo</title>
+  <desc id="desc">White horizontal logo for dark website headers and photo overlays.</desc>
+
+  <rect width="1040" height="260" fill="none"></rect>
+
+  <g transform="translate(36 30)">
+    <rect x="0" y="0" width="200" height="200" rx="38" fill="#f7f1e4"></rect>
+    <circle cx="148" cy="54" r="33" fill="#e49b3f"></circle>
+    <path d="M32 164h136" fill="none" stroke="#2f7d4f" stroke-width="10" stroke-linecap="round"></path>
+    <path d="M100 70l-18 33h11l-13 24h40l-13-24h11z" fill="#8fb95a"></path>
+    <path d="M100 120v25" fill="none" stroke="#2f7d4f" stroke-width="6" stroke-linecap="round"></path>
+    <text x="64" y="124" text-anchor="middle" fill="#12382f" font-family="Inter, Montserrat, Arial, Helvetica, sans-serif" font-size="72" font-weight="900" letter-spacing="-4">R</text>
+    <text x="138" y="124" text-anchor="middle" fill="#12382f" font-family="Inter, Montserrat, Arial, Helvetica, sans-serif" font-size="72" font-weight="900" letter-spacing="-4">R</text>
+  </g>
+
+  <g transform="translate(278 61)">
+    <text x="0" y="67" fill="#f7f1e4" font-family="Inter, Montserrat, Arial, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="-2">R</text>
+    <path d="M104 18l-17 31h10L85 72h38L111 49h10z" fill="#8fb95a"></path>
+    <path d="M104 67v23" fill="none" stroke="#8fb95a" stroke-width="6" stroke-linecap="round"></path>
+    <text x="154" y="67" fill="#f7f1e4" font-family="Inter, Montserrat, Arial, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="-2">R</text>
+    <text x="252" y="67" fill="#f7f1e4" font-family="Inter, Montserrat, Arial, Helvetica, sans-serif" font-size="58" font-weight="850" letter-spacing="-1">Outdoor Essentials</text>
+    <rect x="4" y="94" width="664" height="6" rx="3" fill="#e49b3f"></rect>
+    <text x="4" y="142" fill="#dce6d0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="1.8">LANDSCAPE DESIGN  |  LAWN CARE  |  OUTDOOR LIVING</text>
+  </g>
+</svg>

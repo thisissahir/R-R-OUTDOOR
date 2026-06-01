@@ -1,0 +1,13 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies (none needed — this is a static site)
+node_modules/
+
+# Local source material kept out of the deployed repo
+design_handoff_r_and_r_design_system/
+google-maps-photos-r-and-r-outdoor-essentials/
+logos/
+*.pdf

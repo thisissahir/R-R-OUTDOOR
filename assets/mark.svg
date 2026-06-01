@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">R&amp;R Outdoor Essentials icon mark</title>
+  <desc id="desc">Modern square R&amp;R landscape icon with a tree, sun, and clean ground line.</desc>
+
+  <rect width="240" height="240" fill="none"></rect>
+  <rect x="20" y="20" width="200" height="200" rx="40" fill="#12382f"></rect>
+  <circle cx="170" cy="73" r="34" fill="#e49b3f"></circle>
+  <path d="M52 190h136" fill="none" stroke="#8fb95a" stroke-width="11" stroke-linecap="round"></path>
+  <path d="M120 77l-21 38h13l-15 28h46l-15-28h13z" fill="#8fb95a"></path>
+  <path d="M120 136v30" fill="none" stroke="#8fb95a" stroke-width="7" stroke-linecap="round"></path>
+  <text x="80" y="143" text-anchor="middle" fill="#f7f1e4" font-family="Inter, Montserrat, Arial, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="-4">R</text>
+  <text x="162" y="143" text-anchor="middle" fill="#f7f1e4" font-family="Inter, Montserrat, Arial, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="-4">R</text>
+</svg>
