@@ -221,6 +221,26 @@ ul { margin: 0; padding: 0; list-style: none; }
 .section--paper { background: var(--linen-50);  color: var(--fg); }
 .section--pine  { background: var(--pine-700);  color: var(--linen-200); }
 
+/* ---- Sky-blue accents (pond family) — gradient splashes ---- */
+#services {
+  background:
+    radial-gradient(1100px 480px at 88% -12%, rgba(149,178,197,.32), transparent 62%),
+    var(--linen-50);
+}
+#projects {
+  background:
+    radial-gradient(960px 440px at 6% 112%, rgba(149,178,197,.30), transparent 60%),
+    var(--linen-200);
+}
+#about { /* testimonial */
+  background:
+    radial-gradient(820px 380px at 96% 4%, rgba(149,178,197,.26), transparent 60%),
+    var(--linen-50);
+}
+#process { /* deep teal → navy */
+  background: linear-gradient(157deg, var(--pine-700) 0%, var(--pine-800) 42%, var(--pond-900) 100%);
+}
+
 .eyebrow {
   font-family: var(--font-sans);
   font-size: var(--fs-xs);
@@ -336,7 +356,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hero__scrim {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(20,54,43,.60) 0%, rgba(20,54,43,.10) 38%, rgba(20,54,43,.88) 100%);
+  background:
+    radial-gradient(1200px 420px at 50% -12%, rgba(63,110,138,.50), transparent 72%),
+    linear-gradient(180deg, rgba(20,54,43,.60) 0%, rgba(20,54,43,.10) 38%, rgba(20,54,43,.88) 100%);
 }
 .hero .container { position: relative; }
 .hero__content { max-width: 720px; color: var(--linen-200); }
@@ -616,7 +638,7 @@ ul { margin: 0; padding: 0; list-style: none; }
    ========================================================= */
 .site-footer { background: var(--pine-800); color: var(--linen-300); padding: 80px 0 32px; }
 .footer-cta {
-  background: var(--pine-700);
+  background: linear-gradient(118deg, var(--pine-700) 0%, var(--pond-700) 100%);
   border: 1px solid rgba(241,239,227,.10);
   border-radius: 28px;
   padding: 40px 48px;
