@@ -326,6 +326,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   background-image: url("assets/photo-outdoor-living.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed; /* parallax: image stays fixed, content scrolls over it */
   display: flex;
   align-items: flex-end;
   padding-bottom: 96px;
@@ -755,6 +756,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 @media (max-width: 720px) {
+  /* fixed attachment is janky/unsupported on iOS — fall back to normal scroll */
+  .hero { background-attachment: scroll; }
   .section { padding: 64px 0; }
   .nav-toggle {
     display: inline-flex; align-items: center; justify-content: center;
@@ -802,6 +805,7 @@ ul { margin: 0; padding: 0; list-style: none; }
    ========================================================= */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .hero { background-attachment: scroll; }
   .service-card:hover { transform: none; }
   .project-card:hover .project-card__img { transform: none; }
   .btn--primary:hover { transform: none; }
